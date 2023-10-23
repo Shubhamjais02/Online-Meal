@@ -1,0 +1,154 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*             navigation bar           */
+#logo {
+    margin: 2px 10px;
+}
+
+#logo img {
+    height: 40px;
+    margin: 0px 6px;
+}
+
+#navbar {
+    flex-direction: column;
+}
+
+#navbar::before {
+    height: 100%;
+}
+
+#navbar ul li a {
+    font-size: 0.91rem;
+    padding: 0px 7px;
+    padding-bottom: 4px;
+}
+
+/*             Home section               */
+
+#home {
+    height: 308px;
+    padding: 0px 10px;
+}
+
+#home::before {
+    height: 390px;
+}
+
+#home p {
+    font-size: 0.96rem;
+}
+
+/*             services section               */
+#services {
+    flex-direction: column;
+    margin: 6px;
+}
+
+#services .box {
+    padding: 22px;
+    margin: 2px 6px;
+    margin-bottom: 2px;
+}
+
+#services .box img {
+    height: 108px;
+}
+
+#services .box p {
+    font-size: 0.84rem;
+}
+
+
+/*             client section               */
+#client {
+    /* overflow: hidden; */
+    flex-wrap: wrap;
+}
+
+#client-section::before {
+    width: 100%;
+    height: 219px;
+    opacity: 0.34;
+}
+
+.client-item {
+    margin: 0px;
+    padding: 4px;
+    padding-bottom: 24px;
+}
+
+#client img {
+    height: 52px;
+}
+
+
+/*             Contact section               */
+#contact {
+    height: 468px;
+}
+
+#contact::before {
+    height: 480px;
+    opacity: 0.54;
+}
+
+#contact-box form {
+    width: 78%;
+}
+
+#contact-box input,
+#contact-box textarea {
+    padding: 0.4rem;
+    font-size: 0.78rem;
+}
+
+#contact-box {
+    padding-bottom: 22px;
+}
+
+#contact-box label {
+    font-size: 0.96rem;
+}
+#contact .btn{
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 16px;
+    font-size: 0.98rem;
+    margin: 14px;
+    padding: 10px 12px;
+    cursor: pointer;
+}
+
+
+/*             Footer               */
+
+footer {
+    padding: 2px 4px;
+}
+
+/*               Utility classes   */
+.h-primary {
+    font-size: 1.4rem;
+    padding: 10px;
+}
+
+.h-secondry {
+    font-size: 1.4rem;
+    padding: 12px;
+}
+
+.btn {
+    padding: 8px 24px;
+    border-radius: 16px;
+    font-size: 0.92rem;
+    margin: 26px;
+    cursor: pointer;
+}
